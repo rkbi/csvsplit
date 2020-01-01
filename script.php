@@ -13,7 +13,7 @@ $fo = preg_replace('~\R~u', PHP_EOL, $fo);
 $done = array_filter(explode(PHP_EOL, $fo));
 $donecount = count($done);
 
-# Get the remaining list of mobiel numbers
+# Get the remaining list of mobile numbers
 $remaining = array_diff($full, $done);
 $remainingcount = count($remaining);
 
